@@ -1,0 +1,40 @@
+# Grasp
+
+> Grasp builds personalized, AI-curated short courses. Tell the AI mentor what you want to learn and Grasp assembles a structured "learning path" from the clearest, most credible resources on the web - organized into focused, roughly hour-long lessons with exercises - so every hour of self-study counts.
+
+Grasp is a members-based learning platform (a 14-day free trial, then a single monthly membership) made in London, England. It is delivered as a client-rendered React single-page app, so most pages require JavaScript to render. How it works:
+
+- Discuss a goal with the AI mentor, who co-creates a syllabus with you.
+- Grasp curates the best articles, videos, and materials and structures them into lessons, each with clear learning outcomes and practice exercises.
+- You study, track progress, and build on what you've learned; the syllabus adapts to your feedback.
+
+Most of the app (your courses, lessons, and account) is private and requires signing in. A selection of courses and lessons is published for public, no-login browsing under `/public-courses/...`, `/public-modules/...`, and `/lessons/...`; the complete list of public URLs lives in the sitemap. A separate sister product, Grasp Concepts, lives at concepts.grasp.study.
+
+## Main pages
+
+- [Grasp homepage](https://paths.grasp.study): Overview of how Grasp turns a learning goal into a bespoke course.
+- [About](https://paths.grasp.study/about): The team and mission - equal access to tutorial-style education via AI.
+- [Plans & pricing](https://paths.grasp.study/plans): Membership details; one plan with a 14-day free trial.
+- [Sign up](https://paths.grasp.study/sign-up): Create an account and start a free trial.
+- [Sign in](https://paths.grasp.study/sign-in): Log in to an existing account.
+
+## Example public courses
+
+Free, public sample courses (no account needed) that show how a Grasp course and its lessons are structured:
+
+- [Motion graphics with Figma, Claude, VS Code](https://paths.grasp.study/public-courses/13408be3-bef7-4eb4-9044-4006df89ca32): Creative coding - CSS animation and motion design.
+- [Measure Theory for Statistics](https://paths.grasp.study/public-courses/6189514c-f29d-42e4-9c81-2fe7ecc1d9fd): Mathematics - continuous probability and measure theory.
+- [Programming Language History & Theory](https://paths.grasp.study/public-courses/15ccf738-a186-4424-9c3a-e2da96426717): Programming - expressions, statements, and language design.
+- [SQL for product designers](https://paths.grasp.study/public-courses/fb6ae13e-1260-4230-9ed4-61ce5e16ab2b): SQL - joins and analyzing user behavior.
+- [Rank vs. Wealth: Defence of Liberty](https://paths.grasp.study/public-courses/85fae7ac-d72d-4344-a007-2094428dcc18): Political philosophy - Bagehot and the English constitution.
+
+## Help & policies
+
+- [Membership FAQs](https://docs.grasp.study/membership-faqs): Common questions about the membership, lessons, and top-ups.
+- [Privacy policy](https://paths.grasp.study/privacy): How Grasp handles personal data.
+- [Terms of service](https://paths.grasp.study/terms): Terms governing use of Grasp.
+
+## Optional
+
+- [Sitemap](https://paths.grasp.study/sitemap.xml): Complete list of public course, module, and lesson URLs (large file).
+- [Grasp Concepts](https://concepts.grasp.study): Sister product - a separate Grasp learning site.

@@ -1,8 +1,13 @@
 aid: grasp
 name: grasp
-description: grasp is a company surfaced as a portfolio company of balderton-capital, point-nine and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Grasp is a members-based, AI-powered learning platform based in London, England that builds
+  personalized, AI-curated short courses. Learners discuss a goal with an AI mentor, which co-creates a
+  syllabus and assembles a structured "learning path" from the clearest, most credible resources on the
+  web - organized into focused, roughly hour-long lessons with clear outcomes and practice exercises.
+  Grasp is delivered as a client-rendered React single-page app with a 14-day free trial and a single
+  monthly membership; a selection of public courses and lessons is browsable without an account, and a
+  sister product, Grasp Concepts, lives at concepts.grasp.study. Surfaced as a portfolio company of
+  balderton-capital and point-nine.
 url: https://raw.githubusercontent.com/api-evangelist/grasp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +16,29 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://storage.googleapis.com/grasp-assets/images/opengraph/og-grasp.png
 tags:
 - Company
+- Education
+- E-Learning
+- AI
+- EdTech
+- Online Courses
+- Personalized Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://grasp.study/
+- type: Pricing
+  url: https://paths.grasp.study/plans
+- type: SignUp
+  url: https://paths.grasp.study/sign-up
+- type: Login
+  url: https://paths.grasp.study/sign-in
+- type: TermsOfService
+  url: https://paths.grasp.study/terms
+- type: PrivacyPolicy
+  url: https://paths.grasp.study/privacy
+- type: Support
+  url: https://docs.grasp.study/membership-faqs
+- type: LLMsTxt
+  url: llms/grasp-llms.txt
+- type: DomainSecurity
+  url: security/grasp-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
